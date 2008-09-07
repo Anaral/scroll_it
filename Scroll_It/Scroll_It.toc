@@ -1,0 +1,9 @@
+## Interface: 20400
+## Title: Scroll_It
+## Notes: Allows for the mousewheel to scroll all chatframes and mini-map.
+## Author: Anaral
+## Version: 1.00.1
+## X-Category: Interface Enhancements
+
+Scroll_It.xml
+Scroll_It.lua
