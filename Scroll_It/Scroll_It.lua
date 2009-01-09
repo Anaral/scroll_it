@@ -1,5 +1,5 @@
 ﻿--##################
--- Interface: 20400
+-- Interface: 30000
 -- Title: Scroll_It
 -- Notes: Allows for the mousewheel to scroll all chatframes and mini-map.
 -- License: GNUv2GPL
@@ -22,17 +22,6 @@ do
 			end
 		end)
 	
-	MiniMapWorldMapButton:Show()
-	GameTimeFrame:Show()
-	MinimapZoomIn:Show()
-	MinimapZoomOut:Show()
-	
-	MinimapZoneTextButton:Show()
-	MinimapToggleButton:Show()
-	MinimapBorderTop:Show()
-	
---	MinimapCluster:ClearAllPoints()
-	MinimapCluster:SetPoint('TOPRIGHT', 0, 12)
 end
 --Scroll the chat frames
 SC_UseMouseWheelToScrollChat = true;
